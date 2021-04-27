@@ -1,0 +1,70 @@
+{
+  "vpc-provider:account=174887654502:filter.isDefault=true:region=us-west-2:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-27c7815f",
+    "vpcCidrBlock": "172.31.0.0/16",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-b7fe2dcf",
+            "cidr": "172.31.16.0/20",
+            "availabilityZone": "us-west-2a",
+            "routeTableId": "rtb-da3615a1"
+          },
+          {
+            "subnetId": "subnet-7688743c",
+            "cidr": "172.31.32.0/20",
+            "availabilityZone": "us-west-2b",
+            "routeTableId": "rtb-da3615a1"
+          },
+          {
+            "subnetId": "subnet-2b238176",
+            "cidr": "172.31.0.0/20",
+            "availabilityZone": "us-west-2c",
+            "routeTableId": "rtb-da3615a1"
+          },
+          {
+            "subnetId": "subnet-254b6e0e",
+            "cidr": "172.31.48.0/20",
+            "availabilityZone": "us-west-2d",
+            "routeTableId": "rtb-da3615a1"
+          }
+        ]
+      }
+    ]
+  },
+  "vpc-provider:account=174887654502:filter.isDefault=true:region=us-east-2:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-4d5ace26",
+    "vpcCidrBlock": "172.31.0.0/16",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-c33f83a8",
+            "cidr": "172.31.0.0/20",
+            "availabilityZone": "us-east-2a",
+            "routeTableId": "rtb-021b4769"
+          },
+          {
+            "subnetId": "subnet-1f45af62",
+            "cidr": "172.31.16.0/20",
+            "availabilityZone": "us-east-2b",
+            "routeTableId": "rtb-021b4769"
+          },
+          {
+            "subnetId": "subnet-f84b16b4",
+            "cidr": "172.31.32.0/20",
+            "availabilityZone": "us-east-2c",
+            "routeTableId": "rtb-021b4769"
+          }
+        ]
+      }
+    ]
+  }
+}
